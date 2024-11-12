@@ -1,6 +1,6 @@
 package Bean;
 
-import java.sql.Array;
+import java.util.ArrayList;
 
 public class Restaurant implements java.io.Serializable {
 
@@ -10,7 +10,7 @@ public class Restaurant implements java.io.Serializable {
 	private String restaurantEmail;
 	private String restaurantTEL;
 	private byte[] restaurantPassword;
-	private Array tableNum;
+	private ArrayList<String> tableNum;
 	private int companyID;
 	/**
 	 * @return restaurantID
